@@ -5,6 +5,9 @@
 @media (min-width: 768px) {
 	#media-query-flag {background-color:red;}
 	#media-query-flag:after {content: 'Small - 768px';}
+	.welcome-text {
+		h1 {font-size:30px;}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
