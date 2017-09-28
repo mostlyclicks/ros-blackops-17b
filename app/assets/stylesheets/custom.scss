@@ -13,3 +13,54 @@ html, body {
   padding: 20px;
   z-index: 9999;
 }
+
+section {
+	height:100vh;
+	position:relative;
+	top:0;
+	left:0;
+
+	background-attachment:fixed;
+}
+
+#welcome-to-blackops {
+	background-color:blue;
+	z-index:100;
+}
+
+
+#blackops-118 {
+	background-color:green;
+	z-index:90;
+}
+
+#blackops-98-1 {
+	background-color:purple;
+	z-index:80;
+}
+#blackops-98-2 {
+	background-color:yellow;
+}
+
+#blackops-98-3 {
+	background-color:red;
+}
+
+#blackops-spin {
+	background-color:gray;
+}
+#blackops-collection {
+	background-color: black;
+}
+
+#blackops-video {
+	background-color:white;
+}
+
+#blackops-instagram {
+	background-color:orange;
+}
+
+#blackops-footer {
+	background-color:pink;
+}
