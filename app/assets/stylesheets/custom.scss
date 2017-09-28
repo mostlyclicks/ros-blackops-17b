@@ -1,4 +1,15 @@
 html, body {
 	background-color:#000000;
 	color:rgba(255,255,255,.8);
+	height:20000px;
+}
+
+#info {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+  z-index: 9999;
 }
