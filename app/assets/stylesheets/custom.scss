@@ -185,18 +185,27 @@ section {
 
 
 #blackops-movie {
-	position:fixed;
+	position:relative;
 	background-image:url('../assets/blackops-video.jpg');
 	background-size:cover;
 	height:100%;
 	width:100%;
 	background-repeat: no-repeat;
 	background-position:50% 70%;
+	z-index:1001;
 
 }
 
 #blackops-instagram {
-	background-color:orange;
+	position:normal;
+	background-color:#000000;
+	/*background-image:url('../assets/blackops-video.jpg');*/
+	background-size:cover;
+	height:100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-position:50% 70%;
+	z-index:1000;
 }
 
 #blackops-footer {
