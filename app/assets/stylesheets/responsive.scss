@@ -8,12 +8,18 @@
 	.welcome-text {
 		h1 {font-size:30px;}
 	}
+	#blackops-collection-1, #blackops-collection-2, #blackops-collection-3 {
+		height:80vh;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	#media-query-flag {background-color:blue;}
 	#media-query-flag:after {content: 'Medium - 992px';}
+	#blackops-collection-1, #blackops-collection-2, #blackops-collection-3 {
+		height:100vh;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */

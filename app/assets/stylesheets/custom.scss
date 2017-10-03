@@ -18,6 +18,14 @@ h1, h2, p {
 	color:rgba(255,255,255,.7);
 }
 
+	h2 {
+		font-size:64px;
+		font-weight: 900;
+	}
+	p {
+		font-size:20px;
+	}
+
 section {
 	height:100vh;
 	position:relative;
@@ -122,6 +130,37 @@ section {
 	background-repeat: no-repeat;
 	background-position:50% 50%;
 }
+
+#blackops-collection-1 {
+	position:fixed;
+	background-image:url('../assets/Blackops-collection-1.png');
+	background-size:cover;
+	height:50%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+}
+
+#blackops-collection-2 {
+	position:fixed;
+	background-image:url('../assets/Blackops-collection-2.png');
+	background-size:cover;
+	height:50%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+}
+
+#blackops-collection-3 {
+	position:fixed;
+	background-image:url('../assets/Blackops-collection-3.png');
+	background-size:cover;
+	height:50%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-position:50% 50%;
+}
+
 
 #blackops-spin {
 	background-color:gray;
