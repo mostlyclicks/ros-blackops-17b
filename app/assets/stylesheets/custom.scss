@@ -32,7 +32,7 @@ section {
 }
 
 #welcome-to-blackops {
-	background-color:blue;
+	background-color:#000000;
 	height:100vh;
 
 }
@@ -184,11 +184,15 @@ section {
 }
 
 
+#blackops-movie {
+	position:fixed;
+	background-image:url('../assets/blackops-video.jpg');
+	background-size:cover;
+	height:100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-position:50% 70%;
 
-
-
-#blackops-video {
-	background-color:white;
 }
 
 #blackops-instagram {
