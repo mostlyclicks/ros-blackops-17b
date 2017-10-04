@@ -18,6 +18,21 @@
 	#chris-logan-quote-1 {
 		background-position: 90% 50%;
 	}
+
+	#blackops-118-3 {
+		#text-118 {
+			top:30%;
+			p {
+				font-size:20px;
+			}
+		}
+	}
+
+	#blackops-text {
+		top:52%;
+	h2 {font-size:64px;}
+	p {font-size:20px;}
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -27,6 +42,13 @@
 	#blackops-collection-1, #blackops-collection-2, #blackops-collection-3 {
 		height:100vh;
 	}
+
+	#blackops-text {
+		top:52%;
+	h2 {font-size:64px;}
+	p {font-size:20px;}
+	}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */

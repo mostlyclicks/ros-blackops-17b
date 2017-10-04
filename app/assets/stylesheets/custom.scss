@@ -4,6 +4,13 @@ html, body {
 	height:20000px;
 }
 
+#skrollr-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border:1px solid red;
+}
+
 #info {
   position: fixed;
   top: 20px;
@@ -32,6 +39,7 @@ section {
 }
 
 #welcome-to-blackops {
+	position:fixed;
 	background-color:#000000;
 	height:100vh;
 
@@ -50,8 +58,18 @@ section {
 }
 
 #athlete-driven {
+	position:relative;
+	background-image:url('../assets/PAGE_2sm.jpg');
+	background-size:cover;
+	height:100vh;
+	width:100%;
+	background-repeat: no-repeat;
+	background-position:50% 50%;
 	img {
 		width:140%;
+	}
+	h2 {
+		font-size:32px;
 	}
 }
 
@@ -84,18 +102,26 @@ section {
 	width:100%;
 	background-repeat: no-repeat;
 	background-position:50% 50%;
+	#text-118 {
+		top:15%;
+		p {
+			font-size:14px;
+		}
+	}
+
 }
 
 #blackops-text {
 	position:relative;
+	top:30%;
 	background-color:transparent;
 	
 	h2 {
-		font-size:64px;
+		font-size:32px;
 		font-weight: 900;
 	}
 	p {
-		font-size:20px;
+		font-size:14px;
 	}
 }
 

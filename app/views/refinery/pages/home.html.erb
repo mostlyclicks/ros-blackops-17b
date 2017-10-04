@@ -1,31 +1,33 @@
 <div id="info">0</div>
 <%#= render '/refinery/content_page' %>
-<div id="skrollr-body">
-<div id="skroll-container">
 
-	<section id="welcome-to-blackops" class="flex-container">
+
+
+	<section id="welcome-to-blackops" class="flex-container"
+		data-300="opacity:1;position:fixed;top:0;left:0;"
+		data-500="opacity:0;"
+	>
 		<div class="welcome-text text-center">
 			<img src="../assets/welcome_to_blackops.gif" class="img-responsive" />
-			<small class="">SCROLL</small>
+			<small class="">SCROLL TO NAVIGATE</small>
 			<i class="fa fa-angle-down fa-3x" aria-hidden="true"></i>
 		</div>
 	</section>
 
-	<section id="athlete-driven"
-		data-300="opacity:0;"
+ 	<section id="athlete-driven"
+		data-300="position:fixed;left:0;top:-100px;opacity:0;"
 		data-800="opacity:1;"
-	>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<img src="../assets/PAGE_2.png" class="img-responsive" />
-				</div>
-			</div>
+		data-1450="opacity:1;"
+		data-1600="opacity:0;"
+	> 
+		<div class="container"
+
+		>
 
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4 text-center"
 					data-1000="opacity:0"
-					data-1100="opacity:1;position:fixed;top:35%;left:0%;"
+					data-1100="opacity:1;position:fixed;top:25%;left:0%;"
 					data-1450=""
 					data-1600="opacity:0;"
 				>
@@ -35,6 +37,8 @@
 			</div>
 		</div>
 	</section>
+
+
 
 	<section id="blackops-118-1"
 		data-2200="position:fixed;left:0;top:0;opacity:0;"
@@ -61,8 +65,8 @@
 	>	
 		<div class=="container-fluid">
 			<div class="row">
-				<div class="col-xs-7 col-md-3 col-md-offset-1 col-lg-4"
-          data-3000="position:fixed;left:0;top:30%;opacity:0;"
+				<div id="text-118" class="col-xs-7 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-4"
+          data-3000="position:fixed;left:0;opacity:0;"
           data-3200="opacity:1;"
           data-3600="opacity:1;"
           data-4000="opacity:0;"
@@ -78,7 +82,7 @@
 	  <div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4"
-				  data-4000="opacity:0;position:fixed;left:0;top:52%;z-index:200;"
+				  data-4000="opacity:0;position:fixed;left:0;z-index:200;"
 				  data-4200="opacity:1;"
 				  data-6600="opacity:1;"
 				  data-7000="opacity:0;"
@@ -108,6 +112,8 @@
 	>
 	</section>
 
+
+
 	<section id="blackops-98-3"
     data-5600="0vh:position:fixed;left:0;top:0;opacity:0;"
     data-6000="100vh;opacity:1"
@@ -134,7 +140,7 @@
 		data-10000="opacity:1;"
 		data-10100="opacity:0;"
 	></section>
-
+<!--
 	<section id="parker-white-quote-1"
 		data-10000="position:fixed;left:0;top:0;opacity:0;"
 		data-10400="opacity:1;"
@@ -248,17 +254,12 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/c209caf553215604b4689e513190818d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+			<script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/c209caf553215604b4689e513190818d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 
 
 		</div>
 	</div>
 </div>
-
-
-
-	
-
 </section>
 
 
@@ -273,8 +274,9 @@
 	<section id="blackops-instagram"></section>
 	<section id="blackops-footer"></section> -->
 
-</div>
-</div>
+
+
+
 
 
 
