@@ -1,7 +1,7 @@
 html, body {
 	background-color:#000000;
 	color:rgba(255,255,255,.8);
-	height:20000px;
+	height:25000px;
 }
 
 #skrollr-body {
@@ -211,16 +211,19 @@ section {
 
 
 #blackops-movie {
-background-color:black;
+/*position:relative;
+background-color:blue;
 margin-top:17000px;
 height:100vh;
 background-image:url('../assets/blackops-video.jpg');
 background-size:cover;
+z-index:2001;*/
+width:100%;
 
 }
 
 #blackops-instagram {
-	position:normal;
+	/*position:normal;*/
 	background-color:#000000;
 	/*background-image:url('../assets/blackops-video.jpg');*/
 	background-size:cover;
