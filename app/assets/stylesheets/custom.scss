@@ -1,3 +1,5 @@
+$blackops-font:'Montserrat', sans-serif;
+
 html, body {
 	background-color:#000000;
 	color:rgba(255,255,255,.8);
@@ -23,14 +25,18 @@ html, body {
 
 h1, h2, p {
 	color:rgba(255,255,255,.7);
+	font-family:$blackops-font;
 }
 
 	h2 {
 		font-size:64px;
-		font-weight: 900;
+		font-weight: 700;
+		font-family:$blackops-font;
 	}
 	p {
 		font-size:20px;
+		font-weight:400;
+		font-family:$blackops-font;
 	}
 
 section {
