@@ -230,6 +230,14 @@ width:100%;
 }
 
 #blackops-instagram {
+	h2 {
+		position:relative;
+		z-index:3000;
+		top:36%;
+		font-size:40px;
+		color:#000000;
+
+	}
 	/*position:normal;*/
 	background-color:#000000;
 	/*background-image:url('../assets/blackops-video.jpg');*/
