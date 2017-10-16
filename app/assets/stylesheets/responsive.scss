@@ -6,7 +6,7 @@
 	#media-query-flag {background-color:red;}
 	#media-query-flag:after {content: 'Small - 768px';}
 	h2 {font-size:64px;}
-	p {font-size:20px;}
+	p {font-size:18px;}
 	.welcome-text {
 		h1 {font-size:30px;}
 	}
@@ -25,19 +25,19 @@
 		#text-118 {
 			top:30%;
 			p {
-				font-size:20px;
+				font-size:18px;
 			}
 		}
 	}
 
 	#text-98 {
-		top:52%;
+		top:49%;
 	}
 
 	#blackops-text {
 		top:52%;
 	h2 {font-size:64px;}
-	p {font-size:20px;}
+	p {font-size:18px;}
 	}
 
 	#athlete-driven {
@@ -63,6 +63,10 @@
 
 	#blackops-instagram {
 		h2 {font-size:64px;}
+	}
+
+	#buy-blackops {
+		#store-links {bottom:10px;}
 	}
 
 }
