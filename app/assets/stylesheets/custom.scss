@@ -217,11 +217,31 @@ section {
 }
 
 #buy-blackops {
+	#store-links {
+		position:fixed;bottom:50px;left:0;width:100%;	
+	}
+	h3 {margin-bottom:20px;}
 	position:fixed;
 	z-index:10000;
 	left:0%;
 	bottom:0%;
 	width:100%;
+	a {
+		width:200px;
+		color:#cca825;
+		margin-top:5px;
+		margin-bottom:5px;
+		&:hover {
+			color:#000;
+			background-color:#cca825;
+
+		}
+	}
+	.btn {
+		border:2px solid #cca825;
+		border-radius:0;
+
+	}
 }
 
 #parker-white-quote-1 {
