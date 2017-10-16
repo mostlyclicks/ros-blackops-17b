@@ -29,13 +29,13 @@ h1, h2, p, small {
 }
 
 	h2 {
-		font-size:64px;
+		font-size:32px;
 		font-weight: 700;
 		font-family:$blackops-font;
 		text-transform: uppercase;
 	}
 	p {
-		font-size:20px;
+		font-size:14px;
 		font-weight:400;
 		font-family:$blackops-font;
 	}
@@ -120,7 +120,7 @@ section {
 
 #blackops-text {
 	position:relative;
-	top:30%;
+	top:20%;
 	background-color:transparent;
 	
 	h2 {
@@ -130,6 +130,10 @@ section {
 	p {
 		font-size:14px;
 	}
+}
+
+#text-98 {
+	top:40%;
 }
 
 #blackops-98-1 {
