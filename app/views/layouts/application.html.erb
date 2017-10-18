@@ -2,6 +2,16 @@
 <%= render "/refinery/html_tag" %>
   <% site_bar = render('/refinery/site_bar', :head => true) -%>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108352908-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+     
+      gtag('config', 'UA-108352908-1');
+    </script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= render "/refinery/head" %>
     <%= render "/refinery/javascripts" %>
@@ -12,16 +22,6 @@
 
     <link rel="icon" type="image/jpeg" href="/Favicon_16x16_Logo_R_Rossignol_BLK.jpg" />
     <link rel="icon" type="image/jpeg" href="/Favicon_32x32_Logo_R_Rossignol_BLK.jpg" />
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108352908-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-     
-      gtag('config', 'UA-108352908-1');
-    </script>
 
   </head>
   <body id="<%= canonical_id @page %>" class="<%= view_template_class @page %>">
