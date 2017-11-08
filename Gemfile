@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -51,6 +52,7 @@ end
 
 group :production do
   gem "puma"
+  gem 'heroku-deflater'
 end
 
 gem 'refinerycms', '~> 3.0.0'
